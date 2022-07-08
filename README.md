@@ -1,4 +1,5 @@
 from https://zenn.dev/dwatarub/articles/saikyo-no-terminal
+```
 sudo apt install zsh
 
 which zsh | sudo tee -a /etc/shells
@@ -26,3 +27,4 @@ nano .zshrc
  alias ll="exa -l -h -@ -mU --icons --git --time-style=long-iso --color=automatic --group-directories-first"
 alias l="ll -aa"
 alias cat="batcat"
+```
