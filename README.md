@@ -18,11 +18,11 @@ sudo apt install exa
 sudo apt install bat
 
 ## zsh-syntax-highlighting
-```
+
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-```
+
 nano .zshrc
  alias ll="exa -l -h -@ -mU --icons --git --time-style=long-iso --color=automatic --group-directories-first"
 alias l="ll -aa"
